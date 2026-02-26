@@ -1,21 +1,31 @@
 package hwcalci;
 
 public class Practice {
-	
-	static byte num1=67;
-	static short num2=55;
-	static int sum= num1+num2;
 
-	
-	public static void main(String[] args)
-	{
-		System.out.println(sum);
-		Practice pr=new Practice();
-		pr.difference(2,7);
+	byte num1 = 67;
+	short num2 = 55;
+	int sum = num1 + num2;
+	long num = 6675859659686l;
+
+	public static void main(String[] args) {
+		Practice pr = new Practice();
+
+		System.out.println(pr.sum);
+		System.out.println(pr.num);
+
+		pr.difference(2.98f, 7.76f);
+
+		pr.division(67.876453, 98.534645, "division result is");
+
 	}
-	public void difference(float n1,float n2) {
-		float minus= n1-n2;
+
+	public void difference(float n1, float n2) {
+		float minus = n1 - n2;
 		System.out.println(minus);
 	}
-}
 
+	public void division(double n1, double n2, String msg) {
+		double div = n1 / n2;
+		System.out.println(msg + div);
+	}
+}
