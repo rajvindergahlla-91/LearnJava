@@ -6,10 +6,10 @@ public class Practice {
 	short num2 = 55;
 	int sum = num1 + num2;
 	long num = 6675859659686l;
-	char ch= 'y';
-	char ch1= 98;
-	char ch3='6';
-	static boolean  correct= true;
+	char ch = 'y';
+	char ch1 = 98;
+	char ch3 = '6';
+	static boolean correct = true;
 	static boolean verified;
 
 	public static void main(String[] args) {
@@ -22,8 +22,6 @@ public class Practice {
 		System.out.println(pr.ch3);
 		System.out.println(correct);
 		System.out.println(verified);
-		
-		
 
 		pr.difference(2.98f, 7.76f);
 
