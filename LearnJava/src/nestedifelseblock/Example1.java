@@ -11,7 +11,7 @@ public class Example1 {
 
 	public void studentMarks(int marks) {
 
-		if (marks < 100) {
+		if (marks <= 100) {
 
 			if (marks >= 40) {
 
@@ -35,7 +35,7 @@ public class Example1 {
 
 	public static void main(String[] args) {
 		Example1 ie = new Example1();
-		ie.studentMarks(75);
+		ie.studentMarks(100);
 
 	}
 
