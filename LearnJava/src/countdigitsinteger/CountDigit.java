@@ -15,6 +15,7 @@ public class CountDigit {
 			count++;
 		}
 		System.out.println("the number of digits is" + count);
+		System.out.println("abc");
 	}
 
 	public static void main(String[] args) {
