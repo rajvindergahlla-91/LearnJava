@@ -14,6 +14,8 @@ public class TestIn {
 	anobj.eat();
 	InDog dgobj=new InPug();
 	dgobj.walk();
+	dg.color= "black";
+	System.out.println(dg.color);
 	}
 }
 
