@@ -4,9 +4,9 @@ public class FactorialOfANumber {
 	
 	int fac=1;
 
-	public void factor()
+	public void factor(int num)
 	{
-		for(int i=5;i>=1;i--)
+		for(int i=num;i>=1;i--)
 		{
 			 fac= fac*i;
 			
@@ -19,7 +19,7 @@ public class FactorialOfANumber {
 	public static void main(String[] args)
 	{
 		FactorialOfANumber fn=new FactorialOfANumber();
-		fn.factor();
+		fn.factor(4);
 	}
 	}
 	
