@@ -2,16 +2,17 @@ package accessmodifiertest;
 
 import accessmodifier.Exam;
 
-class TestFinal
+ public class TestFinal extends Exam
 {
-	
+	public TestFinal()
+	{
+		super();
+		System.out.println(" calling testfinal constructor");
+	}
 	public static void main(String[] args)
 	{
-		Exam ex = new Exam();
-		//ex.getMarks();
-		//System.out.println(ex.num);
 		TestFinal tf = new TestFinal();
-		//tf.getMarks();
-		//System.out.println(tf.num);
+
 	}
 }
+

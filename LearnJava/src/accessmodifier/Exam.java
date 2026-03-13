@@ -1,13 +1,14 @@
 package accessmodifier;
 
 public class Exam {
+	
 
-	protected int num = 7;
-
-	protected int getMarks() {
-
-		System.out.println("My Marks are" + num);
-		return num;
+	public Exam()
+	{
+		System.out.println("Calling default constructor" );
 	}
-
+	public static void main(String[] args)
+	{
+		Exam ex = new Exam();
+	}
 }
